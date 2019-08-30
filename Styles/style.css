@@ -1,0 +1,36 @@
+body {
+    padding-top: 50px;
+}
+.header {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the header to fixed position */
+    top: 0; /* Position the header at the top of the page */
+    width: 100%; /* Full width */
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+  }
+  
+  /* Links inside the header */
+  .header a {
+    float: none;
+    width: 50px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .header a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+.images{
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
